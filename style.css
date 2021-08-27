@@ -31,3 +31,12 @@
     width: 100%;
   }
 }
+
+.tabs {
+  border: 1px solid black;
+  background-color: antiquewhite;
+}
+
+.tab {
+  border: 1px solid black;
+}

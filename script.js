@@ -27,3 +27,13 @@ return;
 console.log(el2);
 }
 
+let str = "<table class='tabs'>";
+for (let i = 1; i < 6; i++) {
+  str += "<tr>";
+  str += `<td class="tab">${i}</td>`;
+  str += `<td class="tab">${i * i}</td>`;
+  str += "</tr>";
+}
+str += "</table>";
+
+document.getElementById("res1").innerHTML = str;
