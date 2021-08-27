@@ -1,3 +1,7 @@
+body {
+  background-color: cornsilk;
+}
+
 .first {
   color: rgb(190, 29, 29);
   font-size: x-large;
@@ -8,28 +12,13 @@
 }
 
 .fuck {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
   border: 2px solid black;
+  background-color: darkgreen;
   padding: 2px;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  animation-name: joint;
-  animation-duration: 3s;
-}
-
-@keyframes joint {
-  from {
-    margin-left: 100%;
-    width: 300%;
-    top: 50%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 .tabs {
